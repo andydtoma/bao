@@ -1,0 +1,10 @@
+{
+  "name": "bao",
+  "version": "0.0.0",
+  "description": "bao",
+  "main": "app.js",
+  "author": {
+    "name": "dtoma",
+    "email": ""
+  }
+}
