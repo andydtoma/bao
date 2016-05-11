@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "bao", "bao.njsproj", "{A74D343E-5390-4D7D-924D-213B4CDEA534}"
 EndProject
 Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "bao.module", "bao.module\bao.module.pssproj", "{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A74D343E-5390-4D7D-924D-213B4CDEA534} = {A74D343E-5390-4D7D-924D-213B4CDEA534}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
